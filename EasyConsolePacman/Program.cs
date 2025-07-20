@@ -82,51 +82,38 @@ namespace EasyConsolePacman
                     case ConsoleKey.UpArrow:
                         if (map[userX - 1, userY] != '#')
                         {
-                            if (map[userX - 1, userY] == 'x')
-                            {
-                                coins += 1;
-                                map[userX - 1, userY] = ' ';
-                            }
                             --userX;
                         }
                         break;
                     case ConsoleKey.DownArrow:
                         if (map[userX + 1, userY] != '#')
                         {
-                            if (map[userX + 1, userY] == 'x')
-                            {
-                                coins += 1;
-                                map[userX + 1, userY] = ' ';
-                            }
                             ++userX;
                         }
                         break;
                     case ConsoleKey.LeftArrow:
                         if (map[userX, userY - 1] != '#')
                         {
-                            if (map[userX, userY - 1] == 'x')
-                            {
-                                coins += 1;
-                                map[userX, userY - 1] = ' ';
-                            }
                             --userY;
                         }
                         break;
                     case ConsoleKey.RightArrow:
                         if (map[userX, userY + 1] != '#')
                         {
-                            if (map[userX, userY + 1] == 'x')
-                            {
-                                coins += 1;
-                                map[userX, userY + 1] = ' ';
-                            }
                             ++userY;
                         }
                         break;
-
                 }
 
-                Console.Clear();
+
+                if (map[userX, userY] == 'x')
+                {
+                    coins++;
+                    map[userX, userY] = 'o';
+                }
+
+
+                    Console.Clear();
             }
 
             
