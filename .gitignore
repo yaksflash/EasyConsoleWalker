@@ -1,0 +1,105 @@
+## Общие настройки
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pidb
+*.svd
+*.pdb
+*.cache
+*.log
+*.dbmdl
+*.bak
+
+## Visual Studio
+.vs/
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Build Results
+*.exe
+*.dll
+*.app
+*.lib
+*.so
+*.dylib
+*.a
+*.iobj
+*.ipdb
+*.tlog
+*.tmp
+*.csproj.user
+
+## ASP.NET
+project.lock.json
+project.fragment.lock.json
+wwwroot/node_modules/
+wwwroot/lib/
+
+## Entity Framework
+*.cache
+*.dbmdl
+*.jfm
+
+## Publish
+publish/
+out/
+dist/
+
+## Logs
+*.log
+
+## OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Unity (если используешь)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+sysinfo.txt
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+
+## Rider / VSCode
+.idea/
+.vscode/
